@@ -1,0 +1,120 @@
+/*html {
+	    background: url('http://placekitten.com/g/500/500') no-repeat center center fixed;
+	   -webkit-background-size: cover;
+	   -moz-background-size: cover;
+	   -o-background-size: cover;
+	   background-size: cover;
+	}*/
+
+	.bg {
+  /* The image used */
+    background: url('img1.jpg');
+    background-repeat : no-repeat;
+	background-size : 1000px 900px;
+    /*background-size: 1500px 1500px;*/
+
+    /* Half height */
+    /*height: 30%;*/
+    /* Center and scale the image nicely */
+    /*background-position: center;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+  }
+  .navbar {
+    .navbar-inner {
+      background-color: #fff;
+      background-image: none;
+    }
+  }
+  /*.navbar {
+    .navbar-inner {
+      background-color: #000000;
+      background-image: none;
+    }
+  }*/
+  div.container-fluid{
+      /*-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";         */
+      /*filter: alpha(opacity=0);   */
+      /*-moz-opacity: 0.0;           */
+      /*-khtml-opacity: 0.0;         */
+      /*opacity: 0.0;                */
+      /*background: rgba(255,255,255,0);*/
+      background-color: transparent !important;
+      color:  #fff;
+      opacity: 1;
+      /*border: 3px solid red;*/
+  } 
+  
+  .container {
+      padding: 80px 120px;
+    }
+    .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+    }
+    .person:hover {
+      border-color: #f1f1f1;
+    }
+
+
+
+/*mATERIAL DESIGN BOOTSTRAP*/
+
+/*	html,
+	body,
+	header,
+	.view {
+	  height: 100%;
+	}
+
+	@media (max-width: 740px) {
+	  html,
+	  body,
+	  header,
+	  .view {
+	    height: 1000px;
+	  }
+	}
+	@media (min-width: 800px) and (max-width: 850px) {
+	  html,
+	  body,
+	  header,
+	  .view {
+	    height: 650px;
+	  }
+	}
+
+	.top-nav-collapse {
+	  background-color: #3f51b5 !important;
+	}
+
+	.navbar:not(.top-nav-collapse) {
+	  background: transparent !important;
+	}
+
+	@media (max-width: 991px) {
+	  .navbar:not(.top-nav-collapse) {
+	    background: #3f51b5 !important;
+	  }
+	}
+
+	.rgba-gradient {
+	  background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+	  background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
+	  background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+	}
+
+	.card {
+	  background-color: rgba(126, 123, 215, 0.2);
+	}
+
+	.md-form label {
+	  color: #ffffff;
+	}
+
+	h6 {
+	  line-height: 1.7;
+	}*/
